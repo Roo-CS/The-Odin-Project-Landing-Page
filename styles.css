@@ -182,3 +182,14 @@ a{
 .call-to-action-prompt-right{
   margin-right: 50px;
 }
+
+/*Footer section styles*/
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1F2937;
+  color: white;
+  padding: 25px;
+}
