@@ -1,0 +1,81 @@
+html{
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  height: 100vh;
+}
+
+ol, ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color: #E5E7EB;
+}
+
+/*Header Styles*/
+
+.header-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1F2937;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 725px;
+}
+
+.header div{
+  font-size: 24px;
+  color: #F9FAF8;
+  font-weight: 900;
+}
+
+.header-links{
+  display: flex;
+  gap: 15px;
+  font-size: 18px;
+}
+
+.header-content{
+  display: flex;
+  justify-content: space-between;
+  width: 725px;
+  padding: 50px;
+}
+
+#header-content-title{
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900;
+  width: 350px;
+}
+
+#header-content-subtext{
+  font-size: 18px;
+  color: #E5E7EB;
+  width: 400px;
+}
+
+.sign-up-button{
+  padding: 7px 20px;
+  background-color: #3882F6;
+  color: white;
+  border-radius: 5px;
+  border: 0px;
+  font-weight: 700;
+  margin-top: 5px;
+}
