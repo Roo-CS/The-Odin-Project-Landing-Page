@@ -135,7 +135,7 @@ a{
 .quote-content-container{
   display: flex;
   flex-direction: column;
-  width: 700px;
+  width: 600px;
 }
 
 #inspiring-quote{
@@ -148,5 +148,37 @@ a{
 #quote-author{
   align-self: flex-end;
   font-weight: 900;
+}
 
+/*Fourth section styles*/
+
+.call-to-action-outer-container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 75px 100px;
+}
+
+.call-to-action-inner-container{
+  display: flex;
+  background-color:#3882F6;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  width: 725px;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+#call-text{
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.call-to-action-prompt-right button{
+  border: 2px solid white;
+}
+
+.call-to-action-prompt-right{
+  margin-right: 50px;
 }
