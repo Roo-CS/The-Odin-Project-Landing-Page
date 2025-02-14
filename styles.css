@@ -1,13 +1,9 @@
-html{
-  box-sizing: border-box;
-  font-family: "Roboto";
-}
-
 body{
   margin: 0;
   padding: 0;
   font-weight: normal;
   height: 100vh;
+  box-sizing: border-box;
 }
 
 ol, ul{
@@ -28,6 +24,7 @@ a{
   flex-direction: column;
   align-items: center;
   background-color: #1F2937;
+  padding-bottom: 20px;
 }
 
 .header{
@@ -86,7 +83,7 @@ a{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 120px;
+  margin-bottom: 100px;
 }
 
 #second-container-title{
@@ -124,4 +121,32 @@ a{
   text-align: center;
   margin-top: 5px;
   color: gray;
+}
+
+/*Third section styles*/
+
+.quote-container{
+  display: flex;
+  justify-content: center;
+  background-color: #E5E7EB;
+  padding: 75px 100px;
+}
+
+.quote-content-container{
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+}
+
+#inspiring-quote{
+  font-size: 30px;
+  color: #1F2937;
+  width: 700px;
+  align-self: center;
+}
+
+#quote-author{
+  align-self: flex-end;
+  font-weight: 900;
+
 }
